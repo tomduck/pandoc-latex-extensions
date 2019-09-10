@@ -36,7 +36,7 @@ Pandoc-latex-extensions may be installed and upgraded using the shell command
 
     pip install pandoc-latex-extensions --user --upgrade
 
-Pip is a program that downloads and installs software from the Python Package Index, [PyPI].  It normally comes installed with a python distribution.<sup>[2](#footnote1)</sup>
+Pip is a program that downloads and installs software from the Python Package Index, [PyPI].  It normally comes installed with a python distribution.<sup>[1](#footnote1)</sup>
 
 [python]: https://www.python.org/
 [PyPI]: https://pypi.python.org/pypi
