@@ -144,6 +144,8 @@ Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) 
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
+Options: `offset`.
+
 Example:
 
 ~~~markdown
