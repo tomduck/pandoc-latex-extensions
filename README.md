@@ -208,7 +208,7 @@ The `action(...)` functions are applied to each element in a pandoc document's a
 
 Processors process document `meta`data and content `blocks`.  These are used mostly for injecting LaTeX into the document `meta`data.  Block processing can also be performed, although `action(...)` is generally preferred.
 
-The best way to write a new filter is to adapt an existing filter that does something close to what you want.
+The best way to write a new filter is to adapt an existing filter that does something close to what is desired.
 
 
 ----
