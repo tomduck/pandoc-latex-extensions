@@ -56,7 +56,7 @@ option with pandoc.
 Extensions
 ----------
 
-The following extensions are enabled.
+The following extensions are enabled.  Options for each extension will be implemented on request.
 
 
 ### newpage ###
@@ -77,8 +77,6 @@ Example:
 ~~~
 
 ![lettrine demonstration](img/lettrine.png)
-
-Options: Will be implemented on request.
 
 
 ### noindent ###
