@@ -193,7 +193,7 @@ Pandoc-latex-extensions is a [pandoc filter](https://pandoc.org/filters.html).  
 
 The `pandoclatex/core.py` module provides common infrastructure for each extension.
 
-Extensions are implemented as plugins.  Installing a new plugin is as easy as dropping it into pandoclatex/plugins.
+Extensions are implemented as plugins.  Installing a new plugin is as easy as dropping it into `pandoclatex/plugins`.
 
 Plugins may define `action(key, value, fmt, meta)` and `processor(meta, blocks, warninglevel)` functions.  These are automatically detected and called by `pandoclatex/core.py`.
 
