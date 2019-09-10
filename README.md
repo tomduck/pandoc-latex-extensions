@@ -76,9 +76,7 @@ Example:
 [Lorem ipsum dolor sit amet,]{.lettrine} consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
 ~~~
 
-<div class="highlight highlight-source-gfm">
 ![lettrine demonstration](img/lettrine.png)
-</div>
 
 Options: Will be implemented on request.
 
