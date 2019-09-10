@@ -195,7 +195,7 @@ The `pandoclatex/core.py` module provides common infrastructure for each extensi
 
 Extensions are implemented as plugins.  Installing a new plugin is as easy as dropping it into `pandoclatex/plugins`.
 
-Plugins may define `action(key, value, fmt, meta)` and `processor(meta, blocks, warninglevel)` functions.  These are automatically detected and called by `pandoclatex/core.py`.
+Plugins may define `action(key, value, fmt, meta)` and `processor(meta, blocks)` functions.  These are automatically detected and called by `pandoclatex/core.py`.
 
 The `action(...)` functions are applied to each element in a pandoc document's abstract syntax tree.  As per the [pandocfilters](https://github.com/jgm/pandocfilters) documentation,
 
