@@ -81,7 +81,7 @@ Example:
 
 ### noindent ###
 
-Synopsis: Removes indentation from pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) of class `noindent`.
+Synopsis: Removes indentation from the content of pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `noindent`.
 
 Example:
 
@@ -96,7 +96,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, 
 
 ### epigraph ###
 
-Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) of class `epigraph` to `\epigraph` commands.
+Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `epigraph` to `\epigraph` commands.
 
 Installs: The [epigraph](https://ctan.org/pkg/epigraph) package.
 
@@ -114,14 +114,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, 
 
 ![epigraph demonstration](img/epigraph.png)
 
-The last line is taken to be the quote author.  There must be a blank line above it.
+The last line in the div is taken to be the quote author.  There must be a blank line above it.
 
 Indentation is removed from the first paragraph after the epigraph.
 
 
 ### newthought ###
 
-Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) of class `newthought` to [tufte-latex newthoughts](https://www.ctan.org/pkg/tufte-latex).
+Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) with class `newthought` to [tufte-latex newthoughts](https://www.ctan.org/pkg/tufte-latex).
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
@@ -140,7 +140,7 @@ Example:
 
 ### marginnote ###
 
-Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) of class `marginnote` to [tufte-latex marginnotes](https://www.ctan.org/pkg/tufte-latex).
+Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `marginnote` to [tufte-latex marginnotes](https://www.ctan.org/pkg/tufte-latex).
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
@@ -165,7 +165,7 @@ Maecenas vehicula hendrerit massa, sed consequat ipsum facilisis et. Fusce eu ve
 
 ### marginfigure ###
 
-Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#implicit_figures) of class `marginfigure` to [tufte-latex marginfigures](https://www.ctan.org/pkg/tufte-latex).
+Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#implicit_figures) with class `marginfigure` to [tufte-latex marginfigures](https://www.ctan.org/pkg/tufte-latex).
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
