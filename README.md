@@ -121,7 +121,7 @@ Indentation is removed from the first paragraph after the epigraph.
 
 ### newthought ###
 
-Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) with class `newthought` to [tufte-latex newthoughts](https://www.ctan.org/pkg/tufte-latex).
+Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) with class `newthought` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `\newthought` commands.
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
@@ -140,7 +140,7 @@ Example:
 
 ### marginnote ###
 
-Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `marginnote` to [tufte-latex marginnotes](https://www.ctan.org/pkg/tufte-latex).
+Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `marginnote` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `\marginnote` commands.
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
@@ -165,7 +165,7 @@ Maecenas vehicula hendrerit massa, sed consequat ipsum facilisis et. Fusce eu ve
 
 ### marginfigure ###
 
-Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#implicit_figures) with class `marginfigure` to [tufte-latex marginfigures](https://www.ctan.org/pkg/tufte-latex).
+Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#implicit_figures) with class `marginfigure` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `marginfigure` environments.
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
