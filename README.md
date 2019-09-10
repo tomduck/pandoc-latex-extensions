@@ -116,7 +116,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, 
 
 ![epigraph demonstration](img/epigraph.png)
 
-The last line is taken to be the quote author.
+The last line is taken to be the quote author.  There must be a blank line above it.
 
 Indentation is removed from the first paragraph after the epigraph.
 
