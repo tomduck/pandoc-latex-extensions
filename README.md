@@ -88,7 +88,7 @@ Synopsis: Removes indentation from pandoc [divs](https://pandoc.org/MANUAL.html#
 Example:
 
 ~~~markdown
-:::{.noindent}
+::: {.noindent}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper.
 :::
 ~~~
@@ -105,7 +105,7 @@ Installs: The [epigraph](https://ctan.org/pkg/epigraph) package.
 Example:
 
 ~~~markdown
-:::{.epigraph}
+::: {.epigraph}
 Aliquam erat volutpat.
 
 Lorem Ipsum Generatis

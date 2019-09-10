@@ -1,4 +1,4 @@
-:::{.epigraph}
+::: {.epigraph}
 Aliquam erat volutpat.
 
 Lorem Ipsum Generatis
