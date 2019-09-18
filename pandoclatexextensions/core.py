@@ -1,6 +1,6 @@
 """core.py: Core infrastructure for pandoc-latex-extensions."""
 
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 # Copyright 2019 Thomas J. Duck.
 # All rights reserved.
