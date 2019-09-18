@@ -66,14 +66,14 @@ Synopsis: Converts pandoc [horizontal rules](https://pandoc.org/MANUAL.html#hori
 
 ### lettrine ###
 
-Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) of class `lettrine` to `\lettrine` commands.
+Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) of class `lettrine` to `\lettrine` (drop caps) commands.
 
 Installs: The [lettrine](https://www.ctan.org/pkg/lettrine) package.
 
 Example:
 
 ~~~markdown
-[Lorem ipsum dolor sit amet,]{.lettrine} consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
+[Lorem]{.lettrine} ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
 ~~~
 
 ![lettrine demonstration](../demos/lettrine.png)
