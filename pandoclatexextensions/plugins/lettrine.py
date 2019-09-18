@@ -52,8 +52,8 @@ def action(key, value, fmt, meta):  # pylint: disable=unused-argument
             ret = [PRE, Str(firstword[0]), MID]
             if len(firstword) > 1:
                 ret.append(Str(firstword[1:]))
-            ret += content
             ret.append(POST)
+            ret += content
 
             return  ret
 
