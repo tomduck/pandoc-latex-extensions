@@ -24,7 +24,6 @@ Contents
  1. [Installation](#installation)
  2. [Usage](#usage)
  3. [Markdown Syntax](#markdown-syntax)
- 4. [Development](#development)
 
 
 Installation
@@ -32,15 +31,17 @@ Installation
 
 Pandoc-latex-extensions requires [python], a programming language that comes pre-installed on macOS and linux.  It is easily installed on Windows -- see [here](https://realpython.com/installing-python/).
 
-Pandoc-latex-extensions may be installed and upgraded using the shell command
+Pandoc-latex-extensions may be installed using the shell command
 
-    pip install pandoc-latex-extensions --user --upgrade
+    pip install pandoc-latex-extensions --user
 
-Pip is a program that downloads and installs software from the Python Package Index, [PyPI].  It normally comes installed with a python distribution.<sup>[1](#footnote1)</sup>
+and upgraded by appending `--upgrade` to the above command.  Pip is a program that downloads and installs software from the Python Package Index, [PyPI].  It normally comes installed with a python distribution.<sup>[1](#footnote1)</sup>
+
+Contributions are welcome.  Information for developers is given in [DEVELOPERS.md].
 
 [python]: https://www.python.org/
 [PyPI]: https://pypi.python.org/pypi
-[README.developers]: README.developers
+[DEVELOPERS.md]: DEVELOPERS.md
 
 
 Usage
@@ -184,31 +185,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, 
 ~~~
 
 ![marginfigure demonstration](../demos/marginfigure.png)
-
-
-Development
------------
-
-Pandoc-latex-extensions is a [pandoc filter](https://pandoc.org/filters.html).  It is written in python, and so uses the [pandocfilters](https://github.com/jgm/pandocfilters) module. [Pandocxnos](https://github.com/tomduck/pandocxnos) provides additional support.
-
-The `pandoclatex/core.py` module provides common infrastructure for each extension.
-
-Extensions are implemented as plugins.  Installing a new plugin is as easy as dropping it into `pandoclatex/plugins`.
-
-Plugins may define `action(key, value, fmt, meta)` and `processor(meta, blocks)` functions.  These are automatically detected and called by `pandoclatex/core.py`.
-
-The `action(...)` functions are applied to each element in a pandoc document's abstract syntax tree.  As per the [pandocfilters](https://github.com/jgm/pandocfilters) documentation,
-
-* `key` is the type of the pandoc object (e.g. 'Str', 'Para');
-* `value` is the contents of the object (e.g. a string for 'Str', a
-  list of inline elements for 'Para')
-* `format` is the target output format (as supplied by the format
-   argument of walk)
-* `meta` is the document's metadata
-
-Processors process document `meta`data and content `blocks`.  These are used mostly for injecting LaTeX into the document `meta`data.  Block processing can also be performed, although `action(...)` is generally preferred.
-
-The best way to write a new filter is to adapt an existing filter that does something close to what is desired.
 
 
 ----
