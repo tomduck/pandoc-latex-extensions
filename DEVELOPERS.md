@@ -108,6 +108,6 @@ Create source and binary distributions using
 Upload to pypi (update the version number) using
 
     twine upload dist/pandoc-latex-extensions-0.2.0.tar.gz \
-                 dist/pandoc_latex-extensions-0.2.0-py3-none-any.whl
+                 dist/pandoc_latex_extensions-0.2.0-py3-none-any.whl
 
 (see https://pypi.python.org/pypi/twine).
