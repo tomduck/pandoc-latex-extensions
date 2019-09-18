@@ -130,7 +130,7 @@ Example:
 
 ~~~markdown
 ---
- documentclass: tufte-handout
+documentclass: tufte-handout
 ...
 
 [Lorem ipsum dolor sit amet,]{.newthought} consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo.
@@ -151,7 +151,7 @@ Example:
 
 ~~~markdown
 ---
- documentclass: tufte-handout
+documentclass: tufte-handout
 ...
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
@@ -176,7 +176,7 @@ Example:
 
 ~~~markdown
 ---
- documentclass: tufte-handout
+documentclass: tufte-handout
 ...
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
