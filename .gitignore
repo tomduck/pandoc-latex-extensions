@@ -1,1 +1,4 @@
 pandoc_latex_extensions.egg-info/
+build
+dist
+demos/out
