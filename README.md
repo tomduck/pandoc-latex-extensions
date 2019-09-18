@@ -1,5 +1,5 @@
 
-pandoc-latex-extensions 0.1.0
+pandoc-latex-extensions 0.2.0
 =============================
 
 *pandoc-latex-extensions* is a [pandoc] filter that adds latex extensions.
