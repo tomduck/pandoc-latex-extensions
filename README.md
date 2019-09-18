@@ -165,7 +165,7 @@ Maecenas vehicula hendrerit massa, sed consequat ipsum facilisis et. Fusce eu ve
 
 ### marginfigure ###
 
-Synopsis: Converts pandoc [implicit figures](https://pandoc.org/MANUAL.html#implicit_figures) with class `marginfigure` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `marginfigure` environments.
+Synopsis: Converts pandoc [implicit figures](https://pandoc.org/MANUAL.html#extension-implicit_figures) with class `marginfigure` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `marginfigure` environments.
 
 Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
 
