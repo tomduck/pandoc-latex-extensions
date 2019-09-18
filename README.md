@@ -76,7 +76,7 @@ Example:
 [Lorem ipsum dolor sit amet,]{.lettrine} consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
 ~~~
 
-![lettrine demonstration](img/lettrine.png)
+![lettrine demonstration](../demos/lettrine.png)
 
 
 ### noindent ###
@@ -91,7 +91,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, 
 :::
 ~~~
 
-![noindent demonstration](img/noindent.png)
+![noindent demonstration](../demos/noindent.png)
 
 
 ### epigraph ###
@@ -112,7 +112,7 @@ Lorem Ipsum Generatis
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper.
 ~~~
 
-![epigraph demonstration](img/epigraph.png)
+![epigraph demonstration](../demos/epigraph.png)
 
 The last line in the div is taken to be the quote author.  There must be a blank line above it.
 
@@ -135,7 +135,7 @@ Example:
 [Lorem ipsum dolor sit amet,]{.newthought} consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo.
 ~~~
 
-![newthought demonstration](img/newthought.png)
+![newthought demonstration](../demos/newthought.png)
 
 
 ### marginnote ###
@@ -160,7 +160,7 @@ Maecenas vehicula hendrerit massa, sed consequat ipsum facilisis et. Fusce eu ve
 :::
 ~~~
 
-![marginnote demonstration](img/marginnote.png)
+![marginnote demonstration](../demos/marginnote.png)
 
 
 ### marginfigure ###
@@ -180,10 +180,10 @@ Example:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
 
-![Duis nisi eros, consectetur facilisis odio id, vehicula accumsan justo.](plot.png){.marginfigure offset=-2cm}
+![Duis nisi eros, consectetur facilisis odio id, vehicula accumsan justo.](img/fig-1.png){.marginfigure offset=-2cm}
 ~~~
 
-![marginfigure demonstration](img/marginfigure.png)
+![marginfigure demonstration](../demos/marginfigure.png)
 
 
 Development
