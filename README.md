@@ -68,7 +68,7 @@ Synopsis: Converts pandoc [horizontal rules](https://pandoc.org/MANUAL.html#hori
 
 Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) of class `lettrine` to `\lettrine` commands.
 
-Installs: The [lettrine](https://www.ctan.org/pkg/tufte-latex) package.
+Installs: The [lettrine](https://www.ctan.org/pkg/lettrine) package.
 
 Example:
 
