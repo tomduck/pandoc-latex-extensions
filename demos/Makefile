@@ -1,8 +1,9 @@
 
 
-all: $(patsubst src/%.md,%.png,$(wildcard src/*.md))
+all: $(patsubst src/%.md,out/%.png,$(wildcard src/*.md))
 
-%.png: src/%.md
+out/%.png: src/%.md
+	mkdir -p out
 	pandoc $< -M xnos-warning-level=0 -M pagestyle=empty \
            --filter pandoc-latex-extensions -o tmp.pdf
 	pdfcrop --margins 5 tmp.pdf
@@ -15,4 +16,4 @@ all: $(patsubst src/%.md,%.png,$(wildcard src/*.md))
 
 .PHONY: clean
 clean:
-	rm *.png
+	rm -rf out
