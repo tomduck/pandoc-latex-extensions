@@ -6,16 +6,18 @@ pandoc-latex-extensions 0.2.0
 
 Bug reports and feature requests may be posted on the project's [Issues tracker].  If you find pandoc-latex-extensions useful, then please kindly give it a star [on GitHub].
 
-Plugin contributions are welcome.  See [Development](#development).
+Plugin contributions are welcome.  Information for developers is given in [DEVELOPERS.md].
 
-See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos]
+See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos]
 
 [pandoc]: http://pandoc.org/
 [Issues tracker]: https://github.com/tomduck/pandoc-latex-extensions/issues
 [on GitHub]:  https://github.com/tomduck/pandoc-latex-extensions
+[DEVELOPERS.md]: DEVELOPERS.md
 [pandoc-fignos]: https://github.com/tomduck/pandoc-fignos
 [pandoc-eqnos]: https://github.com/tomduck/pandoc-eqnos
 [pandoc-tablenos]: https://github.com/tomduck/pandoc-tablenos
+[pandoc-tablenos]: https://github.com/tomduck/pandoc-secnos
 
 
 Contents
@@ -37,11 +39,9 @@ Pandoc-latex-extensions may be installed using the shell command
 
 and upgraded by appending `--upgrade` to the above command.  Pip is a program that downloads and installs software from the Python Package Index, [PyPI].  It normally comes installed with a python distribution.<sup>[1](#footnote1)</sup>
 
-Contributions are welcome.  Information for developers is given in [DEVELOPERS.md].
 
 [python]: https://www.python.org/
 [PyPI]: https://pypi.python.org/pypi
-[DEVELOPERS.md]: DEVELOPERS.md
 
 
 Usage
