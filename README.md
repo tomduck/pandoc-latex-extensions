@@ -17,7 +17,7 @@ See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos]
 [pandoc-fignos]: https://github.com/tomduck/pandoc-fignos
 [pandoc-eqnos]: https://github.com/tomduck/pandoc-eqnos
 [pandoc-tablenos]: https://github.com/tomduck/pandoc-tablenos
-[pandoc-tablenos]: https://github.com/tomduck/pandoc-secnos
+[pandoc-secnos]: https://github.com/tomduck/pandoc-secnos
 
 
 Contents
