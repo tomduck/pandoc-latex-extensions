@@ -1,3 +1,8 @@
+pandoc-latex-extensions 0.2.1 (2019-09-19)
+
+    * Updated pandoc-xnos requirement.
+
+
 pandoc-latex-extensions 0.2.0 (2019-09-18)
 
     * Fixed lettrine plugin bug (Issue #1).
