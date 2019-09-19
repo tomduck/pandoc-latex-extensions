@@ -87,13 +87,15 @@ Result:
 
 Synopsis: Removes indentation from the content of pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `noindent`.
 
-Example:
+Example markdown:
 
 ~~~markdown
 ::: {.noindent}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper.
 :::
 ~~~
+
+Result:
 
 ![noindent demonstration](../demos/noindent.png)
 
@@ -104,7 +106,7 @@ Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) 
 
 Installs: The [epigraph](https://ctan.org/pkg/epigraph) package.
 
-Example:
+Example markdown:
 
 ~~~markdown
 ::: {.epigraph}
@@ -115,6 +117,8 @@ Lorem Ipsum Generatis
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper.
 ~~~
+
+Result:
 
 ![epigraph demonstration](../demos/epigraph.png)
 
@@ -129,7 +133,7 @@ Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans)
 
 Documentclass: `tufte-book` or `tufte-handout`.
 
-Example:
+Example markdown:
 
 ~~~markdown
 ---
@@ -138,6 +142,8 @@ documentclass: tufte-handout
 
 [Lorem ipsum dolor sit amet,]{.newthought} consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo.
 ~~~
+
+Result:
 
 ![newthought demonstration](../demos/newthought.png)
 
@@ -150,7 +156,7 @@ Documentclass: `tufte-book` or `tufte-handout`.
 
 Options: `offset`.
 
-Example:
+Example markdown:
 
 ~~~markdown
 ---
@@ -164,6 +170,8 @@ Maecenas vehicula hendrerit massa, sed consequat ipsum facilisis et. Fusce eu ve
 :::
 ~~~
 
+Result:
+
 ![marginnote demonstration](../demos/marginnote.png)
 
 
@@ -175,7 +183,7 @@ Documentclass: `tufte-book` or `tufte-handout`.
 
 Options: `offset`.
 
-Example:
+Example markdown:
 
 ~~~markdown
 ---
@@ -186,6 +194,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, 
 
 ![Duis nisi eros, consectetur facilisis odio id, vehicula accumsan justo.](img/fig-1.png){.marginfigure offset=-2cm}
 ~~~
+
+Result:
 
 ![marginfigure demonstration](../demos/marginfigure.png)
 
