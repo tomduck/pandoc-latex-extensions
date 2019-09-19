@@ -8,7 +8,7 @@ Bug reports and feature requests may be posted on the project's [Issues tracker]
 
 Plugin contributions are welcome.  Information for developers is given in [DEVELOPERS.md].
 
-See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos]
+See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos], [pandoc-comments]
 
 [pandoc]: http://pandoc.org/
 [Issues tracker]: https://github.com/tomduck/pandoc-latex-extensions/issues
@@ -18,6 +18,7 @@ See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos]
 [pandoc-eqnos]: https://github.com/tomduck/pandoc-eqnos
 [pandoc-tablenos]: https://github.com/tomduck/pandoc-tablenos
 [pandoc-secnos]: https://github.com/tomduck/pandoc-secnos
+[pandoc-comments]: https://github.com/tomduck/pandoc-comments
 
 
 Contents
