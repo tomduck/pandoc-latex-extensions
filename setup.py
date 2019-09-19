@@ -43,7 +43,7 @@ setup(
     'https://github.com/tomduck/pandoc-latex-extensions/tarball/'+__version__,
 
     install_requires=['pandocfilters>=1.4.2,<2',
-                      'pandoc-xnos~=2.0.0b4'],
+                      'pandoc-xnos~=2.0.1'],
 
     packages=['pandoclatexextensions'],
 
