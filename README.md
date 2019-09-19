@@ -8,7 +8,7 @@ Bug reports and feature requests may be posted on the project's [Issues tracker]
 
 Plugin contributions are welcome.  Information for developers is given in [DEVELOPERS.md].
 
-See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos], [pandoc-comments]
+See also: [pandoc-fignos], [pandoc-eqnos], [pandoc-tablenos], [pandoc-secnos], and [pandoc-comments].
 
 [pandoc]: http://pandoc.org/
 [Issues tracker]: https://github.com/tomduck/pandoc-latex-extensions/issues
@@ -72,11 +72,13 @@ Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans)
 
 Installs: The [lettrine](https://www.ctan.org/pkg/lettrine) package.
 
-Example:
+Example markdown:
 
 ~~~markdown
 [Lorem]{.lettrine} ipsum dolor sit amet, consectetur adipiscing elit. Duis non massa semper, commodo massa a, molestie justo. Donec id velit non mauris porttitor semper. Suspendisse non pharetra lorem, luctus euismod odio. Integer eu diam at odio feugiat venenatis vitae sit amet libero. Duis ut auctor libero, et venenatis nisi. Fusce nec posuere nisi, porta rutrum justo. Suspendisse blandit tellus eget venenatis scelerisque.
 ~~~
+
+Result:
 
 ![lettrine demonstration](../demos/lettrine.png)
 
@@ -125,7 +127,7 @@ Indentation is removed from the first paragraph after the epigraph.
 
 Synopsis: Converts pandoc [spans](https://pandoc.org/MANUAL.html#divs-and-spans) with class `newthought` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `\newthought` commands.
 
-Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
+Documentclass: `tufte-book` or `tufte-handout`.
 
 Example:
 
@@ -144,7 +146,7 @@ documentclass: tufte-handout
 
 Synopsis: Converts pandoc [divs](https://pandoc.org/MANUAL.html#divs-and-spans) with class `marginnote` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `\marginnote` commands.
 
-Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
+Documentclass: `tufte-book` or `tufte-handout`.
 
 Options: `offset`.
 
@@ -169,7 +171,7 @@ Maecenas vehicula hendrerit massa, sed consequat ipsum facilisis et. Fusce eu ve
 
 Synopsis: Converts pandoc [implicit figures](https://pandoc.org/MANUAL.html#extension-implicit_figures) with class `marginfigure` to [tufte-latex](https://www.ctan.org/pkg/tufte-latex) `marginfigure` environments.
 
-Requires: The [documentclass](https://pandoc.org/MANUAL.html#variables-for-latex) must be `tufte-book` or `tufte-handout`.
+Documentclass: `tufte-book` or `tufte-handout`.
 
 Options: `offset`.
 
