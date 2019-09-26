@@ -2,6 +2,31 @@
 Developer Notes
 ===============
 
+Overview
+--------
+
+Pandoc-latex-extensions is a [pandoc filter](https://pandoc.org/filters.html).  It is written in python, and so uses the [pandocfilters](https://github.com/jgm/pandocfilters) module. [Pandocxnos](https://github.com/tomduck/pandocxnos) provides additional support.
+
+The `pandoclatex/core.py` module provides common infrastructure for each extension.
+
+Extensions are implemented as plugins.  Installing a new plugin is as easy as dropping it into `pandoclatex/plugins/`.
+
+Plugins may define `action(key, value, fmt, meta)` and `processor(meta, blocks)` functions.  These are automatically detected and called by `pandoclatex/core.py`.
+
+The `action(...)` functions are applied to each element in a pandoc document's abstract syntax tree.  As per the [pandocfilters](https://github.com/jgm/pandocfilters) documentation,
+
+* `key` is the type of the pandoc object (e.g. 'Str', 'Para');
+* `value` is the contents of the object (e.g. a string for 'Str', a
+  list of inline elements for 'Para')
+* `format` is the target output format (as supplied by the format
+   argument of walk)
+* `meta` is the document's metadata
+
+Processors process document `meta`data and content `blocks`.  These are used mostly for injecting LaTeX into the document `meta`data.  Block processing can also be performed, although `action(...)` is generally preferred.
+
+The best way to write a new plugin is to adapt an existing plugin that does something close to what is desired.
+
+
 Install Alternatives
 --------------------
 
@@ -34,33 +59,11 @@ There are a few different options for installing from source:
    reflected when the filter is run (which is useful for development).
 
 
-Overview
---------
-
-Pandoc-latex-extensions is a [pandoc filter](https://pandoc.org/filters.html).  It is written in python, and so uses the [pandocfilters](https://github.com/jgm/pandocfilters) module. [Pandocxnos](https://github.com/tomduck/pandocxnos) provides additional support.
-
-The `pandoclatex/core.py` module provides common infrastructure for each extension.
-
-Extensions are implemented as plugins.  Installing a new plugin is as easy as dropping it into `pandoclatex/plugins/`.
-
-Plugins may define `action(key, value, fmt, meta)` and `processor(meta, blocks)` functions.  These are automatically detected and called by `pandoclatex/core.py`.
-
-The `action(...)` functions are applied to each element in a pandoc document's abstract syntax tree.  As per the [pandocfilters](https://github.com/jgm/pandocfilters) documentation,
-
-* `key` is the type of the pandoc object (e.g. 'Str', 'Para');
-* `value` is the contents of the object (e.g. a string for 'Str', a
-  list of inline elements for 'Para')
-* `format` is the target output format (as supplied by the format
-   argument of walk)
-* `meta` is the document's metadata
-
-Processors process document `meta`data and content `blocks`.  These are used mostly for injecting LaTeX into the document `meta`data.  Block processing can also be performed, although `action(...)` is generally preferred.
-
-The best way to write a new filter is to adapt an existing filter that does something close to what is desired.
-
-
 Preparing a Release
 -------------------
+
+These are notes for release managers.
+
 
 ### Merging ####
 
