@@ -1,6 +1,6 @@
 """core.py: Core infrastructure for pandoc-latex-extensions."""
 
-__version__ = '0.2.1'
+__version__ = '0.2.2'
 
 # Copyright 2019 Thomas J. Duck.
 # All rights reserved.
@@ -26,6 +26,7 @@ import textwrap
 
 from pandocfilters import walk
 
+import pandocxnos
 from pandocxnos import get_meta
 from pandocxnos import STDIN, STDOUT, STDERR
 
@@ -70,6 +71,7 @@ def main():
     for name in ['pandoc-latex-extensions-warning-level', 'xnos-warning-level']:
         if name in meta:
             warninglevel = int(get_meta(meta, name))
+            pandocxnos.set_warning_level(warninglevel)
             break
 
     # Set the warninglevel in each plugin

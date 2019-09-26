@@ -66,4 +66,4 @@ def processor(meta, blocks):  # pylint: disable=unused-argument
         pandocxnos.add_to_header_includes(
             meta, 'tex', textwrap.dedent(r'''
             \usepackage{lettrine}
-            '''), warninglevel)
+            '''))

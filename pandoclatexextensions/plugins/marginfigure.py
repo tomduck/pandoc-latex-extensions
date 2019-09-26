@@ -90,5 +90,4 @@ def action(key, value, fmt, meta):  # pylint: disable=unused-argument
 def processor(meta, blocks):  # pylint: disable=unused-argument
     """Document processor."""
     if replaced_figure_env:
-        pandocxnos.add_to_header_includes(meta, 'tex', MARGINFIGURE_TEX,
-                                          warninglevel)
+        pandocxnos.add_to_header_includes(meta, 'tex', MARGINFIGURE_TEX)
