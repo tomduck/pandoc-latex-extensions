@@ -18,7 +18,7 @@
 import re
 import io
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 DESCRIPTION = 'A pandoc filter that adds latex extensions.'
 
@@ -45,7 +45,7 @@ setup(
     install_requires=['pandocfilters >= 1.4.2, < 2.0',
                       'pandoc-xnos >= 2.1.2, < 3.0'],
 
-    packages=['pandoclatexextensions'],
+    packages=find_packages(),
 
     entry_points={'console_scripts':
                   ['pandoc-latex-extensions = pandoclatexextensions:main']},
