@@ -45,7 +45,8 @@ setup(
     install_requires=['pandocfilters >= 1.4.2, < 2.0',
                       'pandoc-xnos >= 2.1.2, < 3.0'],
 
-    packages=['pandoclatexextensions'],
+    package_dir = {'pandoclatexextensions': 'pandoclatexextensions',
+                   'plugins': 'pandoclatexextensions/plugins'},
 
     entry_points={'console_scripts':
                   ['pandoc-latex-extensions = pandoclatexextensions:main']},
